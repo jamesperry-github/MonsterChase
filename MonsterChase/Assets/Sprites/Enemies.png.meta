@@ -204,154 +204,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ghost 1
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 487
-        width: 93
-        height: 220
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d377660cda52d6e10800000000000000
-      internalID: 2192450021786810173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost 2
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 487
-        width: 96
-        height: 220
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89acfd8bbbf766790800000000000000
-      internalID: -7537196482120660328
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost 3
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 487
-        width: 98
-        height: 220
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eae2e888b400f04f0800000000000000
-      internalID: -860468679390908754
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost 4
-      rect:
-        serializedVersion: 2
-        x: 385
-        y: 487
-        width: 96
-        height: 220
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce9c46d5cbc7ab190800000000000000
-      internalID: -7945901444079236628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost 5
-      rect:
-        serializedVersion: 2
-        x: 508
-        y: 487
-        width: 94
-        height: 220
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8515d6a968f02b80800000000000000
-      internalID: -8421458170528590454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost 6
-      rect:
-        serializedVersion: 2
-        x: 623
-        y: 487
-        width: 97
-        height: 220
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 403d85e4b6c9310f0800000000000000
-      internalID: -1147401495359466748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ghost 7
-      rect:
-        serializedVersion: 2
-        x: 738
-        y: 487
-        width: 97
-        height: 220
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9edd06f65ab36c470800000000000000
-      internalID: 8414478535512612329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Enemies_7
+      name: Zombie_0
       rect:
         serializedVersion: 2
         x: 20
@@ -372,7 +225,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_8
+      name: Zombie_1
       rect:
         serializedVersion: 2
         x: 177
@@ -393,7 +246,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_9
+      name: Zombie_2
       rect:
         serializedVersion: 2
         x: 353
@@ -414,10 +267,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_10
+      name: Zombie_3
       rect:
         serializedVersion: 2
-        x: 518
+        x: 530
         y: 258
         width: 130
         height: 212
@@ -435,7 +288,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_11
+      name: Zombie_4
       rect:
         serializedVersion: 2
         x: 680
@@ -456,7 +309,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_12
+      name: Zombie_5
       rect:
         serializedVersion: 2
         x: 834
@@ -477,7 +330,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_13
+      name: Zombie_6
       rect:
         serializedVersion: 2
         x: 1015
@@ -498,7 +351,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_14
+      name: Demon_0
       rect:
         serializedVersion: 2
         x: 23
@@ -519,7 +372,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_15
+      name: Demon_1
       rect:
         serializedVersion: 2
         x: 180
@@ -540,10 +393,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_16
+      name: Demon_2
       rect:
         serializedVersion: 2
-        x: 357
+        x: 358
         y: 14
         width: 129
         height: 209
@@ -561,7 +414,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_17
+      name: Demon_3
       rect:
         serializedVersion: 2
         x: 522
@@ -582,7 +435,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_18
+      name: Demon_4
       rect:
         serializedVersion: 2
         x: 683
@@ -603,7 +456,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_19
+      name: Demon_5
       rect:
         serializedVersion: 2
         x: 837
@@ -624,7 +477,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemies_20
+      name: Demon_6
       rect:
         serializedVersion: 2
         x: 1019
@@ -644,6 +497,153 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Ghost_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 487
+        width: 93
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a0fe5fbfa9e9041a809e123035ef16
+      internalID: -453767466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 487
+        width: 96
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e88ea4d0291ad64289c03fa1d450f7c
+      internalID: 1167153683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_2
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 487
+        width: 98
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79011ce7ac9ce7143b3d2215d54de76b
+      internalID: 2050270619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_3
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 487
+        width: 96
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1625f7df4d5de4c8039b47c1aceabb
+      internalID: -402210045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_4
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 487
+        width: 94
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7faeb4030a4e0f4e881069d0313d9c5
+      internalID: -1962215786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_5
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 487
+        width: 97
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062066eda2cfd7f4fb6f4ae3bdd34d54
+      internalID: -1521179518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ghost_6
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 487
+        width: 97
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7e81354704ad8408332d30cdbbbad7
+      internalID: -189919852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -655,27 +655,27 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Enemies_16: 9008768272413781845
-      Enemies_18: -1010674888820381983
-      Enemies_10: 7877921557971618100
-      Enemies_19: -4181999719777712613
-      Ghost 1: 2192450021786810173
-      Enemies_20: -3375038303658136201
-      Ghost 3: -860468679390908754
-      Enemies_15: 1511843784806208459
-      Enemies_12: 572134458542851419
-      Ghost 4: -7945901444079236628
-      Enemies_9: 4326287474489854147
-      Ghost 6: -1147401495359466748
-      Enemies_11: 5366457973745487733
-      Ghost 5: -8421458170528590454
-      Enemies_17: 615673380907259118
-      Enemies_7: 3714015224569861163
-      Ghost 7: 8414478535512612329
-      Enemies_14: 5023289697677887148
-      Ghost 2: -7537196482120660328
-      Enemies_8: -7844560889915226194
-      Enemies_13: 5875395181630150645
+      Ghost_6: -189919852
+      Zombie_2: 4326287474489854147
+      Ghost_3: -402210045
+      Zombie_6: 5875395181630150645
+      Zombie_3: 7877921557971618100
+      Ghost_1: 1167153683
+      Ghost_0: -453767466
+      Demon_1: 1511843784806208459
+      Ghost_4: -1962215786
+      Zombie_5: 572134458542851419
+      Demon_2: 9008768272413781845
+      Demon_0: 5023289697677887148
+      Ghost_5: -1521179518
+      Demon_4: -1010674888820381983
+      Ghost_2: 2050270619
+      Zombie_4: 5366457973745487733
+      Demon_3: 615673380907259118
+      Demon_5: -4181999719777712613
+      Demon_6: -3375038303658136201
+      Zombie_1: -7844560889915226194
+      Zombie_0: 3714015224569861163
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
