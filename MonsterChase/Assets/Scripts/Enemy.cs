@@ -7,6 +7,8 @@ public class Enemy : MonoBehaviour
     public float speed;
     private Rigidbody2D body;
     private string WALL = "Wall";
+    private string ENEMY = "Enemy";
+
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
@@ -25,7 +27,14 @@ public class Enemy : MonoBehaviour
         {
             //isGrounded = true;
             //anim.SetBool(JUMP_ANIMATION, false);
-            Debug.Log("DESPAWN THE MONSTER");
+            //Debug.Log("DESPAWN THE MONSTER");
+            Destroy(gameObject);
+        }
+
+        if (collision.gameObject.CompareTag(ENEMY))
+        {
+            Debug.Log("IGNORE THE MONSTER");
+            //Physics2D.IgnoreCollision();
         }
     }
 } //class

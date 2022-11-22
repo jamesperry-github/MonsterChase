@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     private string JUMP_ANIMATION = "isJumping";
     private bool isGrounded;
     private string GROUND = "Ground";
+    private string ENEMY = "Enemy";
     // Awake
     void Awake()
     {
@@ -82,6 +83,10 @@ public class Player : MonoBehaviour
         {
             isGrounded = true;
             anim.SetBool(JUMP_ANIMATION, false);
+        }
+        if (collision.gameObject.CompareTag(ENEMY))
+        {
+            Destroy(gameObject);
         }
     }
 } //class
