@@ -35,6 +35,7 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("IGNORE THE MONSTER");
             //Physics2D.IgnoreCollision();
+            //Destroy(gameObject);
         }
     }
 } //class
