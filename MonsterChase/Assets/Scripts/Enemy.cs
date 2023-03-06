@@ -30,7 +30,7 @@ public class Enemy : MonoBehaviour
             //Debug.Log("DESPAWN THE MONSTER");
             Destroy(gameObject);
         }
-
+        // detect collision between enemies
         if (collision.gameObject.CompareTag(ENEMY))
         {
             Debug.Log("IGNORE THE MONSTER");
